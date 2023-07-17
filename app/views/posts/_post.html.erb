@@ -1,0 +1,17 @@
+<div id="<%= dom_id post %>">
+  <div class="card" style="width: 18rem;">
+    <div class="card-img-top" style="width: 100%; height: 200px; overflow: hidden;">
+      <img class="post-image" src="<%= post.image %>" alt="Post Image">
+    </div>
+    <div class="card-body">
+      <p>
+        <strong>Title:</strong>
+        <%= post.title %>
+      </p>
+      <p>
+        <strong>Description:</strong>
+        <%= post.description %>
+      </p>
+    </div>
+  </div>
+</div>

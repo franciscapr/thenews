@@ -1,0 +1,9 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+/* app/assets/stylesheets/application.scss */
+
+/* Importar el archivo application.scss */
+@import 'application';
+
+/* Importar el archivo _navbar.scss */
+@import 'navbar';
